@@ -1,0 +1,33 @@
+body{
+
+    background-color: gainsboro;
+}
+ul.gallery{
+
+    list-style: none;
+    position: relative;
+    float: left ;
+    margin: 20px;
+        
+}
+
+li{
+
+    background-color: white;
+    vertical-align: middle;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    border-width: 0.4rem; 
+    border-style: solid;
+    border-color: black;
+}
+
+.big {
+
+    width: 300;
+   
+}
+
+
+
