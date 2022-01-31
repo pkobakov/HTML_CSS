@@ -1,0 +1,33 @@
+body{
+
+    background-color: lightseagreen;
+}
+
+p{
+    text-align: center;
+    color: white;
+    text-indent: 40px;
+    width : 500px;
+    margin-left: 40%;
+    padding: 20px;
+    background-color: salmon;
+    border: 5px solid white;
+
+    border-radius: 30px;
+    border-top-right-radius: 75px;
+    border-bottom-style: dotted ;
+    border-top-style: double;
+}
+
+div{
+    
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: italic;
+   box-sizing: border-box;
+   width: 200px;
+   padding-left: 20px;
+   background-color: violet;
+   border: 3px solid rgb(42, 3, 58);
+   border-radius: 10px;
+
+}
