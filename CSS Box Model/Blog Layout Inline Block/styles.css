@@ -1,0 +1,39 @@
+html{
+
+    font-family: Helvetica, sans-serif;
+
+}
+
+body{
+
+    background-color: rgb(238,238,238);
+    color: rgb(51,51,51);
+    padding: 10px 20px;
+
+}
+
+p{
+  
+    width: 60%;
+    text-align: justify;
+    
+}
+
+aside{
+
+    width: 35%;
+    float: right;
+}
+
+ul {
+
+    line-height: 1.5;
+   
+}
+
+section{
+
+    width: 70%;
+    text-align: justify;
+
+}
