@@ -1,0 +1,68 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+body{
+    background-color: lightgrey;
+    
+}
+
+body h2{
+    font-family:'Times New Roman', sans-serif;
+    text-transform: capitalize;
+}
+
+#normal .button{
+    font-family: Arial, Helvetica, sans-serif;
+    background: transparent;
+    text-decoration: none;
+    font-size: 1rem;
+    color: rgb(51,51,51);
+    border: 1.5px solid #000;
+    outline: none;
+    border-radius: 12px;
+    margin-right: 6px;
+    padding: 4px 8px;
+    cursor: pointer;
+
+}
+
+#normal .button:hover{
+    color: white;
+    background-color: rgb(51,51,51);
+}
+
+#filled .button{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(51,51,51);
+    color: rgb(251,251,251);
+    text-decoration: none;
+    font-size: 1rem;
+    border:solid 1px rgb(51,51,51);
+    outline: none;;
+    border-radius: 12px;
+    margin-right: 6px;
+    padding: 4px 8px;
+
+}
+
+#icon .button{
+
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(51,51,51);
+    color: rgb(251,251,251);
+    text-decoration: none;
+    font-size: 1rem;
+    border:solid 1px rgb(51,51,51);
+    outline: none;
+    border-radius: 12px;
+    margin-right: 6px;
+    padding: 4px 8px;
+
+}   
+
+#filled .button:hover, 
+#icon .button:hover{
+ background-color: rgb(0, 102, 0);
+ cursor: pointer;
+}
+
+
+

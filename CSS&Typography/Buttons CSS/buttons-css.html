@@ -1,0 +1,50 @@
+<!-- 
+Create an "index.html" file with title - "Buttons CSS"
+
+Use h2 tag for headings
+
+Create 9 buttons on 3 rows with class button
+o	For the first button in each row use a tag
+o	For the next two buttons in the row use button tags
+o	The buttons in the second and the third row should have class - fill
+o	Every last button in the row should have class - hover
+
+You must use the following three colors: 
+o	green(rgb(0, 102, 0))
+o	white(rgb(251, 251, 251))
+o	gray(rgb(51, 51, 51))
+
+Use FontAwesome for this task. Import it in your CSS, with the @import rule.
+ -->
+
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Buttons CSS</title>
+     <link rel="stylesheet" href="/styles/buttons-css.css">
+ </head>
+ <body>
+  <div id="normal">
+      <h2>Normal Buttons</h2>
+      <a class="button" href="#">Learn More</a>
+      <button class="button">Learn More</button>
+      <button class="button hover">Learn More</button>
+    </div>
+
+  <div id="filled">
+      <h2>Filled Buttons</h2>
+      <a class="button fill" href="#">Learn More</a>
+     <button class="button fill">Learn More</button>
+    <button class="button fill hover">Learn More</button>
+  </div>
+
+  <div id="icon">
+      <h2>Icon buttons</h2>
+      <a class="button fill" href="#"><i class="fas fa-long-arrow-alt-down"></i>Download</a>
+      <button class="button fill"><i class="fas fa-long-arrow-alt-down"></i>Download</button>
+      <button class="button fill hover"><i class="fas fa-long-arrow-alt-down"></i>Download</button>
+  </div>
+ </body>
+ </html>
