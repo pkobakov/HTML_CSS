@@ -1,0 +1,42 @@
+#welcomeSection{
+    background-color: #8C86AA;
+    padding: 20px 50px;
+}
+
+#welcomeSection h1{
+    text-align: center;
+    color: #B2EF9B;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#welcomeSection p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#articlesSection{
+    background-color: #B2EF9B;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 20px;
+}
+
+#articlesSection .title{
+    text-align: center;
+    color: #8C86AA;
+}
+
+#articlesSection #articleList{
+     list-style: none;
+     padding: 0;
+     margin: 0;
+}
+
+#articlesSection #articleList .articleItem{
+    background-color: #DAFF7D;
+    color: #A4C05F;
+    padding: 8px 4px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}

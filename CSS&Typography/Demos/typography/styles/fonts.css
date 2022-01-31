@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "MochiyPop";
+    src: url("/typography-local/fonts/MochiyPopPOne-Regular.ttf");
+}
+
+body{
+    font-family: MochiyPop;
+}
+
+body h1{
+    font-size: 42px;
+    color:blueviolet;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 2.5;
+}
+
+article {
+
+    font-size: 16px;
+    color: rgb(155, 18, 132);
+
+}
+article p{
+   font-size: 1.5em;
+   color: rgb(61, 128, 148);
+}
+
+article span{
+
+    font-size: 1.5em;
+    color: mediumslateblue;
+}
