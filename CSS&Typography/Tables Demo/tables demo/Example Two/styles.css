@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "Saira Condensed";
+    src: url('/fonts/SairaCondensed-Regular.ttf');
+}
+
+body{
+
+    font-family: "Saira Condensed", serif;
+    font-size: 10px;
+    color: rgb (211,211,211);
+}
+
+table{
+
+    width: 60%;
+    border: 1px solid  #100007;
+}
+
+thead{
+
+    background-color: #100007;
+    color: #FFADC6;
+    text-align: center;
+    border: 1px solid   #100007;
+}
+
+tbody{
+    color: #100007;
+    border: 1px solid   #100007;
+}
+
+td{
+
+    border: 1px solid   #100007;
+    padding-left: 20px;
+    
+}
+
+tr:nth-child(even){
+
+    background-color: #FFADC6;
+}
+
+tr>td:hover{
+
+    background-color: #E9DF00;
+}
