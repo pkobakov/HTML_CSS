@@ -1,23 +1,24 @@
 body{
 
-    background-color: gainsboro;
-}
-ul.gallery{
+    background-color: rgb(220, 220, 220);
 
+}
+#gallery{
+   
     list-style: none;
-    position: relative;
+    position: top;
     float: left ;
     margin: 20px;
         
 }
 
-li{
+section li{
 
     background-color: white;
     vertical-align: middle;
+    display: inline-block;
     margin: 10px;
     padding: 10px;
-    display: inline-block;
     border-width: 0.4rem; 
     border-style: solid;
     border-color: black;
