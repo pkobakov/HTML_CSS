@@ -1,0 +1,51 @@
+.article {
+
+    width: 300px;
+}
+
+.article .article_img {
+
+    width: 100%;
+    border-radius: 21px;
+    margin-bottom: 12px;
+}
+
+.tag {
+
+    display: inline-block;
+    margin-bottom: 12px;
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 6px;
+
+}
+
+.tag.tag--info {
+
+    background-color: #90cdf4;
+    color: #2c5282;
+
+}
+
+.tag.tag--success {
+
+    background-color: #9ae6b4;
+    color: #276749;
+
+}
+
+.tag.tag--warning {
+
+    background-color: #faf089;
+    color: #975a16;
+
+}
+
+.tag.tag--danger {
+
+    background-color: #feb2b2;
+    color: #9b2c2c;
+
+}
+
+
