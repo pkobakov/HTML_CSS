@@ -1,3 +1,40 @@
+#articlesSection {
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 64px 0 calc(64px - 32px) 0;
+}
+
+#articlesSection .title {
+
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 64px;
+    color: #2d3748;
+}
+
+/* 
+Articles Listing
+---------------- 
+*/
+
+.articles li {
+
+    display: inline-block;
+    width: 30%;
+    margin-right: 4.6%;
+    margin-bottom: 32px;
+    vertical-align: top;
+    
+
+}
+
+.articles li:nth-child(3n+3) {
+ margin-right: 0;
+
+}
+
 /* 
 Article Component 
 ------------------ 
@@ -5,7 +42,7 @@ Article Component
 
 .article {
 
-    width: 300px;
+    width: 100%;
 }
 
 .article .article_img_wrapper {
@@ -34,7 +71,7 @@ Article Component
 
 .article .article_description {
 
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
     color: #718096;
     line-height: 22px;
@@ -50,8 +87,8 @@ Tag Component
 
     display: inline-block;
     margin-bottom: 12px;
-    font-size: 12px;
-    padding: 4px 10px;
+    font-size: 14px;
+    padding: 6px 12px;
     border-radius: 6px;
 
 }
