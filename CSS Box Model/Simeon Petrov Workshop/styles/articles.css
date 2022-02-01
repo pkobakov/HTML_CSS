@@ -1,15 +1,51 @@
+/* 
+Article Component 
+------------------ 
+*/
+
 .article {
 
     width: 300px;
 }
 
-.article .article_img {
-
-    width: 100%;
+.article .article_img_wrapper {
+    aspect-ratio: 1 / 1;
     border-radius: 21px;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+
+.article .article_img_wrapper .article_img {
+
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+
+}
+
+.article .article_title {
+
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 28px;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+
+.article .article_description {
+
+    font-size: 14px;
+    font-weight: 300;
+    color: #718096;
+    line-height: 22px;
     margin-bottom: 12px;
 }
 
+
+/* 
+Tag Component
+-------------- 
+*/
 .tag {
 
     display: inline-block;
