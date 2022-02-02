@@ -99,6 +99,10 @@ p, ul, ol {
     padding: 0;
 }
 
+main {
+    font-size: 20px;
+}
+
 .main-image {
     background:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url('/img/brooke-lark-210780-unsplash\ \(1\).jpg');
     background-size: cover;
@@ -117,5 +121,41 @@ p, ul, ol {
 .main-image p{
     margin: 0 auto;
     width: 45%;
-    font-size: 20px;
+}
+
+.site-info {
+    background-color: #FF7F50;
+    color: #fff;
+    text-align: center;
+    padding: 2.5rem 0;
+    
+}
+
+.site-info h3 {
+    text-transform: uppercase;
+    
+}
+
+.site-info p {
+    width: 45%;
+    margin: 0 auto;
+}
+
+.site-info button {
+    background-color: #fff;
+    color: #FF7F50;
+    text-transform: uppercase;
+    padding: 0.6rem 0.8rem;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border: 2px solid #fff;
+    outline: none;
+}
+
+.site-info button:hover {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
 }
