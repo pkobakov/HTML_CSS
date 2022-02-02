@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=PT+Serif:wght@400;700&family=Pacifico&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+html{
+
+    font-family: 'PT Sans', serif;
+    font-size: 16px;
+    line-height: 1.5;
+    box-sizing: border-box;
+
+}
+
+*, *:after, *:before{
+    box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6{
+ font-family: 'PT Serif', serif;
+ padding-bottom: 1em;
+}
+
+h1{font-size: 2.4rem;}
+h2{font-size: 2.0rem;}
+h3{font-size: 1.8rem;}
+h4{font-size: 1.6rem;}
+h5{font-size: 1.4rem;}
+h6{font-size: 1.2rem;}
+
+p, ul, ol{
+    padding-bottom: 1rem;
+}
