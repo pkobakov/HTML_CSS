@@ -185,3 +185,28 @@ main>section{
    height: 80px;
    padding: 0.4rem;
 }
+
+.gallery {
+    text-align: center;
+    background-color: rgba(255, 127, 80, 0.2);
+}
+
+.gallery li {
+    display: inline-block;
+    width: 410px;
+    padding: 1rem;
+    background: #fff;
+    border: 4px solid #000;
+    margin-bottom: 1.5rem;
+    vertical-align: middle;
+}
+
+.gallery li:not(:nth-child(3n+3)){
+  margin-right: 1rem;
+}
+
+.gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
