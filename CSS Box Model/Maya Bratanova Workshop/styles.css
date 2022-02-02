@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=PT+Serif:wght@400;700&family=Pacifico&display=swap');
 
-* {
 
+
+* {
     margin: 0;
     padding: 0;
 }
 
-html{
-
+html {
     font-family: 'PT Sans', serif;
     font-size: 16px;
     line-height: 1.5;
@@ -15,22 +15,107 @@ html{
 
 }
 
-*, *:after, *:before{
+*, *:after, *:before {
     box-sizing: inherit;
 }
 
-h1, h2, h3, h4, h5, h6{
+body {
+    width: 1680px;
+    margin: 0 auto; 
+}
+
+h1, h2, h3, h4, h5, h6 {
  font-family: 'PT Serif', serif;
  padding-bottom: 1em;
 }
 
-h1{font-size: 2.4rem;}
-h2{font-size: 2.0rem;}
-h3{font-size: 1.8rem;}
-h4{font-size: 1.6rem;}
-h5{font-size: 1.4rem;}
-h6{font-size: 1.2rem;}
+h1 {font-size: 2.4rem;}
+h2 {font-size: 2.0rem;}
+h3 {font-size: 1.8rem;}
+h4 {font-size: 1.6rem;}
+h5 {font-size: 1.4rem;}
+h6 {font-size: 1.2rem;}
 
-p, ul, ol{
+p, ul, ol {
     padding-bottom: 1rem;
+}
+
+.site-header {
+    background-color: #F1F5F8;
+    padding: 0.3rem 0.8rem;
+}
+
+.site-header nav {
+    display: inline-block;
+   
+}
+
+.site-header ul li {
+    display: inline-block;
+    background-color: #FF7F50;
+    padding: 0.6rem;
+    border-radius: 5px;
+}
+
+.site-header ul li:not(:last-child) {
+    margin-right: 0.8rem;
+}
+
+.site-header ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.site-header ul li a:before {
+    font-family: "Font Awesome 5 Free";
+    content: '\f015';
+    display: inline-block;
+    font-weight: 900;
+    padding-right: 0.3rem;
+}
+
+.site-header ul li:nth-child(2) > a::before {
+    content: '\f500';
+}
+
+.site-header ul li:nth-child(3) > a::before {
+    content: '\f2b9';
+}
+
+.site-header ul li:nth-child(4) > a::before {
+    content: '\f781';
+}
+
+.site-header ul li:nth-child(5) > a::before {
+    content: '\f2bb';
+}
+
+.header-title {
+    display: inline-block;
+    font-size: 30px;
+    color: #FF7F50;
+    font-family: 'Pacifico', serif;
+    width: 1100px;
+    padding: 0;
+}
+
+.main-image {
+    background:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url('/img/brooke-lark-210780-unsplash\ \(1\).jpg');
+    background-size: cover;
+    padding: 18rem 0;
+    color: #fff;
+    text-align: center;
+}
+
+.main-image h1 {
+    letter-spacing: 2px;
+    margin: 0 auto;
+    width: 35%;
+    text-shadow: 2px 2px 2px rgba(38, 16, 10, 0.81);
+}
+
+.main-image p{
+    margin: 0 auto;
+    width: 45%;
+    font-size: 20px;
 }
