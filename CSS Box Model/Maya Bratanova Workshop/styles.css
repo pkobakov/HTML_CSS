@@ -40,6 +40,14 @@ p, ul, ol {
     padding-bottom: 1rem;
 }
 
+li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
 .site-header {
     background-color: #F1F5F8;
     padding: 0.3rem 0.8rem;
@@ -209,4 +217,49 @@ main>section{
   display: block;
   width: 100%;
   height: auto;
+}
+
+.site-footer {
+  background-color: #FF7F50;
+  color: #fff;
+  text-align: center;
+}
+
+.site-footer p, .site-footer ul {
+    display: inline-block;
+}
+
+.site-footer p {
+    padding-right: 5rem;
+    padding-top: 1rem;
+}
+
+.site-footer li {
+   display: inline-block;
+   margin-right: 1rem;
+   
+}
+
+.site-footer li a:after{
+    display: block;
+    content: '\f082';
+    font-family: 'Font Awesome 5 Brands';
+    font-weight: 900;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    
+    
+    
+}
+
+.site-footer li:nth-child(2)>a::after {
+    content: '\f092';
+    
+
+}
+
+.site-footer li:nth-child(3)>a::after {
+    content: '\f081';
+    
 }
