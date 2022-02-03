@@ -51,6 +51,7 @@ a{
 .site-header {
     background-color: #F1F5F8;
     padding: 0.3rem 0.8rem;
+    width: 100%;
     position: fixed;
 }
 
