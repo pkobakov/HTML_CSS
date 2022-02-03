@@ -1,26 +1,37 @@
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
 body{
 
     background-color: rgb(220, 220, 220);
 
 }
-#gallery{
-   
-    list-style: none;
-    position: top;
-    float: left ;
-    margin: 20px;
+.gallery{
+
+   width: 70%;
+   margin: 0 auto;
+
         
 }
 
+.images ul {
+    list-style: none;
+    display: inline-block;
+    
+}
 
 section li{
 
     background-color: white;
     vertical-align: middle;
     display: inline-block;
-    margin: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
     padding: 10px;
-    border-width: 0.4rem; 
+    border-width: 0.4rem;
     border-style: solid;
     border-color: black;
 }
