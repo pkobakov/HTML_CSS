@@ -19,10 +19,16 @@ body{
 
 
 .site-header {
-  background-color: rgba(83, 26, 85, 0.938);
+  background-color: rgb(240, 158, 6);
   position: fixed;
-  top: 0;
-  width: 1680px;
+  top: 18px;
+  width: 660px;
+  border: 2px solid turquoise;
+  border-radius: 12px;
+  box-shadow: 10px 10px 4px turquoise;
+  margin-left: 470px;
+  text-align: center;
+  padding: 30px 0;
 }
 
 .site-header h1{
@@ -38,8 +44,8 @@ body{
 }
 
 .site-main .action {
-  background-color: rgb(233, 69, 4);
-  padding: 20px 5px;
+  background-color: rgb(12, 158, 85);
+  padding: 28px 10px;
   margin: 20px 0;
 }
 
