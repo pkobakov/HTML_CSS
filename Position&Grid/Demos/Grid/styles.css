@@ -1,0 +1,17 @@
+
+.grid-container {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    /* grid-template-columns: repeat(3, 300px); */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+
+
+.grid-item {
+    background-color: salmon;
+    padding: 1rem;
+}
