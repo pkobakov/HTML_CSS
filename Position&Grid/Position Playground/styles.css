@@ -16,7 +16,8 @@
    
 }
 
-div {
+.viewport1,
+.viewport2 {
 
     height: 80%;
     position: relative;
