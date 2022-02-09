@@ -6,10 +6,10 @@
 
 
 body{
-    width: 1600px;
     background: rgb(238, 238, 238);
     font-family: Helvetica, sans-serif;
-    margin: 0 auto;
+    line-height: 1.5rem;
+    padding: 20px 130px;
     
 }
 
@@ -19,31 +19,62 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 1em/1.2 Georgia, serif;
+    font-family: Georgia, serif;
+    font-size: 1em/1.2;
+    padding: 20px 0;
 }
 
 img {
     background: rgb(255, 255, 255);
-    box-shadow: rgba(0, 0, 0, 0.25) ;
+    box-shadow: 1px 1px 5px 2px rgb(0 0 0 / 25%);
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgba(0, 0, 0);
+}
+
+p {
+    padding-bottom: 30px;
+    
 }
 
 blockquote {
     font-family: Georgia, serif;
+    border-left: 3px solid lightgrey;
+    color: #757171;
+    font-style: italic;
+    padding-left: 24px;
 }
 
+a {
+    text-decoration: none;
+    color: rgb(0, 102, 0);
+}
+
+/*
+==================================================== 
+ */
+
+.main {
+    width: 73%;
+    margin-right: 65px;
+}
+
+.main, .sidebar {
+    display: inline-block;
+    vertical-align: top;
+}
 
 .site-header {
     border-bottom: 1px solid black;
     padding: 20px;
 }
 
-.title {
-    width: 70%;
+.site-title {
+    width: 77%;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 36px;
+    font-size: 40px;
     display: inline-block;
-    padding-left: 20px;
 
 }
 .nav-bar
@@ -56,28 +87,38 @@ blockquote {
     text-decoration: none;
     list-style: none;
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
-.article-header {
-    padding: 20px;
-}
-
-.article1 {
-    width: 70%;
-}
 .picture1 {
-    padding: 10px;
-    margin: 10px;
-    background-color: rgb(255, 255, 255);
-    border: 2px solid rgba(0, 0, 0);
     float: right;
+    margin: 0 20px 20px 20px;
 }
 
-p {
-    padding-bottom: 20px;
+.author {
+      display: block;
+      text-align: right;
+      margin-top: 32px;
+    }
+
+
+.inner-section-text,
+blockquote {
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 45px;
+    width: 45%
 }
 
+.third-article p {
+    margin-left: 10px;
+}
+
+
+.picture2 {
+  float: left;
+  margin-right: 20px;
+}
 
 
 

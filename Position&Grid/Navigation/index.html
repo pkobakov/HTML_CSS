@@ -10,7 +10,7 @@
 
 <body>
     <header class="site-header">
-        <p class="title">SITE TITLE</p>
+        <p class="site-title">SITE TITLE</p>
         <nav class="nav-bar">
             <ul>
                 <li>Home</li>
@@ -20,12 +20,12 @@
             </ul>
         </nav>
     </header> 
-    <main>
-        <article>
+    <main class="main">
+        <article class="first-article">
             <header class="article-header">
                 <h1>Heading level 1</h1>
             </header>
-            <section class="article1">
+            <section class="first-article">
                 <img class="picture1" src="/images/second-image.jpg">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus lorem nibh, quis vehicula
                     quam eleifend vel. Sed sagittis urna a commodo fermentum. Donec fringilla volutpat mi, non ultrices
@@ -46,7 +46,7 @@
                 </p>
             </section>
         </article>
-        <article>
+        <article class="second-article">
             <h2>Heading level 2</h2>
             <p>Aliquam erat volutpat. Donec sodales malesuada purus, a gravida ipsum molestie ac. Donec ac luctus leo,
                 eget lobortis sapien. Quisque ultricies egestas ipsum, tempor porta nulla facilisis eu. Sed fermentum
@@ -56,18 +56,23 @@
                 sed varius sapien cursus a. Nulla eros arcu, gravida non urna sit amet, placerat ornare ligula. Sed a
                 lacus nec quam pellentesque laoreet. Proin sit amet est vitae mi porttitor rhoncus sed nec neque.
                 Praesent metus quam, sagittis eu mauris a, pellentesque suscipit justo. In varius tortor a ante feugiat,
-                quis finibus magna blandit.</p>
-            <p>
-                Phasellus dictum interdum efficitur. Maecenas eleifend sapien felis, quis interdum ex tempor a. Aenean
-                sodales, eros ac fermentum elementum, enim nisi finibus nisi, sed tempus turpis mauris ac quam. Aenean
-                ac leo vel ante sollicitudin consequat in ut augue. Vestibulum ante ipsum primis in faucibus orci luctus
-                et ultrices posuere cubilia Curae; Duis sodales odio diam. Phasellus ultricies faucibus massa sit amet
-                pharetra.
+                quis finibus magna blandit.
             </p>
-            <blockquote>Proin sit amet est vitae mi porttitor rhoncus sed nec neque. Praesent metus quam, sagittis eu
-                mauris a, pellentesque suscipit justo. In varius tortor a ante feugiat, quis finibus magna blandit.
-                <span class="author">Author Name</span>
-            </blockquote>
+            <section class="inner-section">
+                <p class="inner-section-text">
+                    Phasellus dictum interdum efficitur. Maecenas eleifend sapien felis, quis interdum ex tempor a. Aenean
+                    sodales, eros ac fermentum elementum, enim nisi finibus nisi, sed tempus turpis mauris ac quam. Aenean
+                    ac leo vel ante sollicitudin consequat in ut augue. Vestibulum ante ipsum primis in faucibus orci luctus
+                    et ultrices posuere cubilia Curae; Duis sodales odio diam. Phasellus ultricies faucibus massa sit amet
+                    pharetra.
+                </p>
+                
+                <blockquote>
+                    Proin sit amet est vitae mi porttitor rhoncus sed nec neque. Praesent metus quam, sagittis eu
+                    mauris a, pellentesque suscipit justo. In varius tortor a ante feugiat, quis finibus magna blandit.
+                    <span class="author">Author Name</span>
+                </blockquote>
+            </section>
             <p>
                 Sed fermentum viverra tortor ut lacinia. Pellentesque habitant morbi tristique senectus et netus et
                 malesuada fames ac turpis egestas. Duis eleifend ut ligula quis lacinia. Ut sit amet est quis ipsum
@@ -79,9 +84,9 @@
 
             </p>
         </article>
-        <article>
-            <h2>Heading level 2</h2>
-            <img src="/images/first-image.jpg" alt="">
+        <article class="third-article">
+            <h3>Heading level 3</h3>
+            <img class="picture2" src="/images/first-image.jpg" alt="">
             <p>Ut vitae tristique magna. In hac habitasse platea dictumst. Aliquam tempor dolor in ante porta, quis
                 convallis metus laoreet. Ut a magna mauris. Vestibulum blandit ante vitae felis gravida hendrerit. Nulla
                 eleifend vel diam non viverra. Nullam at maximus mi. Integer luctus quis felis vitae ornare. Ut eu
@@ -94,10 +99,9 @@
                 Duis sodales odio diam. Phasellus ultricies faucibus massa sit amet pharetra.
             </p>
         </article>
-
     </main>
-    <aside>
-        <section>
+    <aside class="sidebar">
+        <section class="categories">
             <h3>Categories</h3>
             <nav>
                 <ul>
@@ -108,7 +112,7 @@
                 </ul>
             </nav>
         </section>
-        <section>
+        <section class="social">
             <h3>Social</h3>
             <nav>
                 <ul>
@@ -120,5 +124,4 @@
         </section>
     </aside>
 </body>
-
 </html>
