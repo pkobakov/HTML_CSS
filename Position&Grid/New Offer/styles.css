@@ -1,0 +1,18 @@
+body {
+    width: 620px;
+    padding-top: 50px;
+    margin: 0 auto;
+
+}
+main{
+    width: 700px;
+    height: 500px;
+    margin: 60px;
+}
+
+img.new {
+    position: relative;
+    top: -200px;
+    right: 150px;
+}
+
