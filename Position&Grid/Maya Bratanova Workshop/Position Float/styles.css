@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header{
+    text-align: center;
+    font-size: 30px;
+    padding: 2rem;
+}
+
+header,
+main,
+aside,
+footer {
+    border: 1px solid black;
+}
+
+
+main {
+    width: 70%;
+    float: left;
+}
+
+aside {
+ width: 30%;
+ float: right;
+}
+
+footer {
+    clear: both;
+}
+
+
