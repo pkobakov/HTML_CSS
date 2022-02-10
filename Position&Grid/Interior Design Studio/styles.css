@@ -1,0 +1,22 @@
+/* 
+•	<h1>
+o	Absolute position
+o	Top coordinates: 60px
+o	Left coordinates: 180px
+o	Text color: antiquewhite
+o	text-shadow: 1px 1px 20px black
+
+*/
+
+img {
+    width: 50%;
+    position: relative;
+}
+
+h1 {
+    color: antiquewhite;
+    text-shadow: 1px 1px 20px black;
+    position: absolute;
+    top: 60px;
+    left: 180px;
+}
