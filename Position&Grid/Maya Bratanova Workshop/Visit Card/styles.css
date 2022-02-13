@@ -25,10 +25,10 @@ body {
 }
 
 .personal-info {
-    padding: 5rem 4rem 10rem 4rem;
+    padding: 5rem 4rem 8rem 4rem;
 }
  
-img {
+.personal-info .profile-pic {
 
     width: 190px;
     height: 206px;
@@ -48,9 +48,7 @@ img {
     color: yellowgreen;
 }
 
-.yellow {
-    background: yellow;
-}
+
 
 .color-box > p {
     width: 20%;
@@ -59,7 +57,28 @@ img {
     margin-top: 1.5rem;
 }
 
+.color-box.bottom > p {
+    margin: 0;
+}
 
+.yellow {
+    background: yellow;
+}
+
+.yellow-green {
+    background: yellowgreen;
+}
+
+.green {
+    background: green;
+}
+
+.orange {
+    background: orange;
+}
+.red {
+    background: red;
+}
 
 .color-box.content {
     width: 100%;
@@ -79,26 +98,17 @@ img {
     text-align: center;
 }
 
+
 .yellow {
     color: yellow;
+    position: relative;
 }
 
-.color-box.bottom > p {
-    margin: 0;
-}
-
-.yellow-green {
-    background: yellowgreen;
-}
-
-.green {
-    background: green;
-}
-
-.orange {
-    background: orange;
-}
-.red {
-    background: red;
+.yellow .code {
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
