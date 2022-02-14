@@ -9,7 +9,7 @@ h1 {
 }
 
 .flex-container {
-    background: lightgray;
+    background: rgb(168, 241, 225);
     border: 3px solid black;
     border-radius: 6px;
     list-style: none;
