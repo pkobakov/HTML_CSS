@@ -1,0 +1,40 @@
+
+body {
+    margin: 15px 20px;
+    padding: 10px; 
+    background: rgb(238, 238, 238);
+}
+header {
+    font-family: Helvetica, sans-serif;
+    border-bottom: 3px solid black;
+    text-transform: uppercase;
+}
+
+img {
+    padding: 10px;
+    background: rgb(255,255, 255);
+    border: 2px solid black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, serif;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside ul li a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+    
+}
