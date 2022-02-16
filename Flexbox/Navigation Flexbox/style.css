@@ -1,6 +1,6 @@
 body {
-    width: 1300px;
-    margin: 0 auto;
+    margin: 20px;
+    padding: 20px;
 }
 
 header {
@@ -18,15 +18,16 @@ header, a, p {
 
 .title {
     font-size: 1.7rem;
-    flex-basis: 60%;
+    flex-basis: 70%
 
 }
 
 header ul {
     list-style: none;
     display: flex;
-    flex-basis: 20%;
+    flex-basis: 30%;
     justify-content: space-between;
+    gap: 15px;
 }
 
 header ul li a {
