@@ -1,0 +1,40 @@
+body {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    
+    
+}
+
+header, a, p {
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+} 
+
+.title {
+    font-size: 1.7rem;
+    flex-basis: 60%;
+
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    flex-basis: 20%;
+    justify-content: space-between;
+}
+
+header ul li a {
+   text-decoration: none;
+   color: rgb(0, 153, 0);
+}
+
+h2 {
+    font-weight: 100;
+}
+
