@@ -84,8 +84,11 @@ blockquote {
 span {
     position: absolute;
     font-style: italic;
-    top: 100px;
+    position: absolute;
+    font-style: italic;
+    bottom: 30px;
     right: 10px;
+}
 
 }
 
