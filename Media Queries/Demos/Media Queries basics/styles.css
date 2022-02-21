@@ -1,0 +1,41 @@
+body {
+    background: #8EB7B6;
+}
+
+section {
+    background: #051937;
+    width: 25%;
+    padding: 10px;
+    border: 2px solid #39FF14;
+
+}
+
+img {
+   width: 100%;
+}
+
+/* 
+Devices Resolution Standarts:
+
+320px-480px: Mobiles
+481px-768px: IPads, Tablets
+769px-1024px: Small screens, Laptops
+1025px-1200px: Desktops, large screens
+1201px and more - Extra large screens, TV 
+*/
+
+@media screen and (max-width: 480px) {
+    main {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 1500px) {
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+}
+
