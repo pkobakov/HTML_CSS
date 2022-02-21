@@ -31,11 +31,10 @@ Devices Resolution Standarts:
 
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1200px) {
     main {
         display: flex;
         flex-wrap: wrap;
-        flex-direction: row;
     }
 }
 
