@@ -1,0 +1,81 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+
+body {
+    background: white;
+    font-family: Helvetica, sans-serif;
+    padding-top: 60px;
+}
+
+fieldset, legend {
+    background: #F8F8F8;
+    border: 1px solid #585858;
+    border-radius: 4px;
+    box-shadow: 0px 0px 15px 0px #585858;
+    
+}
+
+fieldset {
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+legend {
+    font-weight:bold;
+    padding: 10px 120px 10px 10px;
+}
+
+article {
+    display: inline-block;
+    position: relative;
+}
+
+p {
+    display: inline-block;
+}
+
+input {
+    width: 70%;
+    padding: 10px 10px 10px 30px;
+    margin-bottom: 20px;
+}
+
+i {
+    position: absolute;
+    top: 16px;
+    left: 86px;
+}
+
+input.btn {
+    background:#2D2D2D ;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    width: 15%;
+    padding-right: 20%;
+}
+
+input:focus {
+    background-color: royalblue;
+}
+
+@media  (max-width: 900px) {
+    
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    i {
+        top: 60px;
+        left:10px;
+    }
+
+    input.btn {
+        padding-right: 10%;
+    }
+}
+
+
+
