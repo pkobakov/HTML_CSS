@@ -1,6 +1,6 @@
 
 body {
-    margin: 15px 20px;
+    margin: 15px 30px;
     padding: 10px; 
     background: rgb(238, 238, 238);
 }
@@ -24,15 +24,11 @@ header {
 
 main {
     line-height: 1.5;
-    flex-basis: 55%;
-    margin-right: 12rem;
+    font-size: 1.2rem;
+    flex-basis: 100%;
 
 }
 
-aside {
-    
-    flex-basis: 25%;
-}
 
 img {
     padding: 10px;
@@ -43,12 +39,14 @@ img {
 
 .image1 {
     float: right;
-    margin: 0 15px 15px 15px;
+    width: 150px;
+    height: 260px;
+    margin: 0px 30px 30px 30px;
 }
 
 .image2 {
     float: left;
-    margin-right: 15px;
+    margin: 0px 30px 30px;
 }
 
 h1,
@@ -73,7 +71,7 @@ h6 {
 blockquote {
     font-family: Georgia, serif;
     color: rgb(125, 122, 127);
-    font-size: 0.9rem;
+    font-size: 1rem;
     line-height: 1.5;
     font-style: italic;
     border-left: 2px solid rgb(221, 221, 221);
@@ -90,17 +88,41 @@ span {
     right: 10px;
 }
 
+@media (max-width: 500px){
+    body {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 600px){
+    body {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 800px){
+    body {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1300px){
+    body {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1301px) and (max-width: 1800px){
+    body {
+        font-size: 21px;
+    }
+}
+
+@media (min-width: 1801px){
+    body {
+        font-size: 23px;
+    }
 }
 
 
 
-aside ul {
-    list-style: square;
-}
-
-aside ul li a {
-    font-family: Helvetica, sans-serif;
-    color: rgb(0, 153, 0);
-    text-decoration: none;
-    
-}
