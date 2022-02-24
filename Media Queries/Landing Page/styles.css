@@ -41,7 +41,7 @@ header {
     line-height: 1.8;
     font-weight:bold ;
 }
-.navigation {
+.navigation, li, p {
     font-family: Helvetica, sans-serif;
     
 }
@@ -189,44 +189,64 @@ blockquote {
 
 footer {
     display: flex;
-    justify-content: space-evenly;
-    padding: 40px 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: auto;
+    line-height: 1.5;
+    padding: 40px 30px;
 }
 
-footer .description {
+.description {
     flex-basis: 30%;
-    line-height: 1.2;
 }
 
-footer .description h1 {
-    margin-bottom: 10px;
+.sitemap {
+    flex-basis: 30%;
+}
+
+.sitemap h2, .contacts h2 {
+    padding: 0px 40px;
+}
+
+.home {grid-area: "home";}
+.about {grid-area: "about";}
+.services {grid-area: "services";}
+.blog {grid-area: "blog";}
+.contacts {grid-area: "contacts";}
+.terms {grid-area: "terms";}
+.privacy {grid-area: "privacy";}
+
+footer .sitemap ul {
+    width: 35%;
+    /* margin: 0 auto; */
+    list-style: none;
+    display: grid;
+    grid-template-columns: 100px 200px;
+    grid-template-areas: 
+    "home about"
+    "service blog"
+    "contacts terms"
+    "privacy privacy";
+    text-align: left;
+    gap: 5px;
+
 }
 
 
 
-footer .sitemap h2 {
-    margin-bottom: 10px;
-
-}
-
-
-footer .sitemap li {
-    margin-bottom: 10px;
-}
-
-footer .sitemap a {
+footer a{
     text-decoration: none;
     color: black;
-    font-family: Helvetica, sans-serif;
 }
 
-footer .contacts h2{
-  margin-bottom: 10px;
+.contacts {
+    flex-basis: 30%;
 }
 
-footer .contacts li {
-    margin-bottom: 10px;
+.contacts ul{
+    list-style: none;
 }
+
 
 
 
