@@ -174,8 +174,8 @@ blockquote {
     background-image: repeating-linear-gradient(45deg, #d9dbfd 0, #d9dbfd 1px, #e5e5f7 0, #e5e5f7 50%);
     display: flex;
     flex-wrap: wrap;
-    border-bottom: 1px solid ;
-    box-shadow: 0px 0px 5px 3px #585858;
+    border-bottom: 1px solid #585858;
+    box-shadow: 0px 0px 5px 5px #585858;
 }
 
 .testimonials-section .testimonials {
@@ -189,7 +189,7 @@ blockquote {
 
 footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 40px 10px;
 }
 
@@ -209,9 +209,6 @@ footer .sitemap h2 {
 
 }
 
-/* footer .sitemap ul {
-
-} */
 
 footer .sitemap li {
     margin-bottom: 10px;
