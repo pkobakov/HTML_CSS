@@ -1,0 +1,35 @@
+body {
+    background: #f2f2f2;
+    font-family: Helvetica, sans-serif;
+    padding-top: 30px;
+}
+
+table {
+    background: white;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 70%;
+    margin: 0 auto;
+}
+
+th {
+
+    background: #585858;
+    color: white;
+    font-weight: bold;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.table-head {
+    text-align: left;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+ 
