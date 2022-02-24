@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 @import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
 
+body {
+   height: auto;
+}
+
+
 h1,
 h2,
 h3,
@@ -19,7 +24,7 @@ h6 {
     
 }
 header {
-    margin: 10px 30px 30px 20px;
+    padding: 30px 30px 30px 20px;
     display: flex;
     flex-grow: 1;
     align-items: baseline;
@@ -65,6 +70,7 @@ header {
     font-family: Merriweather, serif;
     width: 50%;
     margin: 0 auto;
+    padding-top: 130px;
 }
 
 .need-a-website-section .description {
