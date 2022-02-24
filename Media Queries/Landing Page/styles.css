@@ -2,7 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 @import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
 
-.container {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 1.4rem;
+} 
+
+.container, footer {
     background-color: #e5e5f7;
     opacity: 0.8;
     background-image: radial-gradient( ellipse farthest-corner at 10px 10px , #d9dbfd, #d9dbfd 50%, #e5e5f7 50%);
@@ -165,6 +174,8 @@ blockquote {
     background-image: repeating-linear-gradient(45deg, #d9dbfd 0, #d9dbfd 1px, #e5e5f7 0, #e5e5f7 50%);
     display: flex;
     flex-wrap: wrap;
+    border-bottom: 1px solid ;
+    box-shadow: 0px 0px 5px 3px #585858;
 }
 
 .testimonials-section .testimonials {
@@ -174,6 +185,50 @@ blockquote {
     margin-bottom: 20px;
     flex-basis: 95%;
     text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 10px;
+}
+
+footer .description {
+    flex-basis: 30%;
+    line-height: 1.2;
+}
+
+footer .description h1 {
+    margin-bottom: 10px;
+}
+
+
+
+footer .sitemap h2 {
+    margin-bottom: 10px;
+
+}
+
+/* footer .sitemap ul {
+
+} */
+
+footer .sitemap li {
+    margin-bottom: 10px;
+}
+
+footer .sitemap a {
+    text-decoration: none;
+    color: black;
+    font-family: Helvetica, sans-serif;
+}
+
+footer .contacts h2{
+  margin-bottom: 10px;
+}
+
+footer .contacts li {
+    margin-bottom: 10px;
 }
 
 
