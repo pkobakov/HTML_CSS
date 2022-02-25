@@ -1,0 +1,105 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+header {
+    background: rgb(255, 16, 0);
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.search {
+    position: relative;
+    width: 30%;
+}
+
+.search input{
+    padding: 5px 180px 5px 5px;
+    margin-right: 0;
+}
+
+button {
+    color: white;
+    background: rgb(184,175,175);
+    padding: 9px 20px;
+    margin-left: 0;
+    border: none;
+    position: absolute;
+}
+
+.my__account {
+    color: white;
+
+}
+
+.my__account a {
+    color: white;
+    text-decoration: none;
+    padding-right: 30px;
+}
+
+.my__account span {
+    padding-right: 3px;
+}
+
+/* main */
+
+main {
+    background: rgb(243, 228, 228);
+    padding: 30px 40px ;
+
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+
+
+.gallery div {
+
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery div img {
+    width: 100%;
+}
+
+.gallery div span {
+    color: rgb(162, 158, 158);
+    text-align: center;
+    padding: 10px;
+}
