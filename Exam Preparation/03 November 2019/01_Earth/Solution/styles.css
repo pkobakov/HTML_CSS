@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1140px;
+    margin: 0 auto;
+    border: 3px solid black;
+}
+
+header {
+    font-size: 2rem;
+    background: rgb(0, 18, 20);
+    padding: 20px 10px 10px 10px;
+}
+
+.title {
+    color: rgb(0, 243, 250);
+}
+
+.subtitle {
+    color: white;
+}
+
+/* ====================== */
+
+main {
+    padding: 40px 20px 100px 20px;
+    background: white;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.earth_photo {
+    max-width: 30%;
+    background: white;
+    border: 1px solid black;
+    padding: 10px 20px;
+} 
+
+img {
+    max-width: 100%;
+
+}
+
+.description {
+    
+    text-align: justify;
+    line-height: 1.2;
+    
+}
+
+.text {
+    max-width: 60%;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: justify;
+    padding: 10px 10px 10px 40px;
+}
+
+/* 
+================================== 
+*/
+
+footer {
+    position: relative;
+    background: rgb(212, 236,236);
+    padding: 20px 30px;
+    font-size: 1.3rem;
+}
+
+footer .facts {
+    background: rgb(0, 18, 20);
+    color: white;
+    font-weight: bold;
+    font-size: 1.7rem;
+    padding: 10px 10px 10px 20px;
+    position: absolute;
+    bottom: 155px;
+    left: -2px;
+}
+
+footer span {
+     font-weight: bold;
+}
+
+
+
+
+
+
