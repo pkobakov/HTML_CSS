@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 40px 20px;
+    font-family: Poppins, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Montserrat, sans-serif;
+}
+
+.offer h2, p,
+.promo {
+    padding-bottom: 10px;
+}
+
+
+.offer {
+    width: 50%;
+    padding-bottom: 30px;
+
+}
+
+
+section .icon {
+    float: left;
+    width: 4%;
+    padding-right: 10px;
+}
+
+.car-image {
+    width: 40%;
+    float: right;
+}
+
+.car-image img {
+    width: 100%;
+}
+
