@@ -10,6 +10,7 @@
 
 body {
     font-family: 'Noto Sans', sans-serif;
+    background: rgb(243, 228, 228);
 }
 
 header {
@@ -48,10 +49,11 @@ header {
 button {
     color: white;
     background: rgb(184,175,175);
-    padding: 9px 20px;
+    padding: 8px 20px;
     margin-left: 0;
     border: none;
     position: absolute;
+    cursor: pointer;
 }
 
 .my__account {
@@ -103,3 +105,173 @@ main {
     text-align: center;
     padding: 10px;
 }
+
+.new-collection {
+
+    display: flex;
+    width: 95%;
+    padding: 40px 0px;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 150px;
+}
+
+.offer {
+    width: 30%;;
+    padding-top: 30px;
+}
+
+.offer h1 {
+    color: rgb(255, 16, 0);
+}
+
+.offer p {
+    color: rgb(184,175,175);
+    font-size: 0.7rem;
+    line-height: 2.5;
+}
+
+.offer button {
+    background:  rgb(255, 16, 0);
+    color: white;
+    border: none;
+    font-size: 0.6rem;
+    border-radius: 2px;
+    padding: 10px 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.offer-image {
+    width: 55%;
+}
+
+.offer-image img {
+    width: 100%;
+}
+
+.services {
+    
+    width: 93%;
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(204, 195, 195);
+    padding: 30px 20px;
+    justify-content: center;
+    gap: 10px
+}
+
+.services div {
+    text-align: center;
+    width: 30%;
+}
+
+.services div i {
+    color: rgb(117, 117 , 117);
+    font-size: 3rem;
+    padding: 20px;
+    background: white;
+    border-radius: 50%;
+}
+
+.services p {
+    padding-top: 5px;
+    line-height: 1.5;
+}
+
+.services .promo, .promo-text {
+    color: rgb(117, 117 , 117);
+}
+
+.promo-text {
+    font-size: 0.8rem;
+}
+
+footer {
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    background: rgb(243, 228, 228);
+    width: 88%;
+    margin: 0 auto;
+    gap: 10px;
+    padding-bottom: 30px;
+}
+
+.links {
+    flex-basis: 50%;
+}
+
+.links ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.links li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.links a {
+    text-decoration: none;
+    color: rgb(117, 117 , 117);
+}
+
+.contact {
+    flex-basis: 30%;
+    
+}
+
+
+
+.contact span {
+   
+    padding: 0px 10px;
+}
+
+.about-us,
+.contact-us {
+    font-weight: bold;
+}
+
+
+.contact a {
+    color: rgb(117, 117 , 117);
+    text-decoration: none;
+}
+
+.contact .button {
+    background: rgb(117, 117 , 117);
+    color: white;
+    padding: 2px 20px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+
+.social {
+    display: inline-block;
+}
+
+.social ul {
+    display: inline-block;
+    list-style: none;
+
+}
+
+.social li {
+    display: inline-block;
+    padding-left: 5px ;
+}
+
+.social a {
+    text-decoration: none;
+    color: rgb(117, 117 , 117);
+}
+
+
+
+
+
