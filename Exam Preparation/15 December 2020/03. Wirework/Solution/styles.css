@@ -212,7 +212,7 @@ main .container {
 
 footer {
     background: rgb(27,151,114);
-    color: rgb(92,93,92);
+    color: rgb(91, 179, 149);
     font-size: 0.7rem;
     text-align: center;
     padding: 50px 60px;
@@ -221,6 +221,6 @@ footer {
 
 .footer-span {
     font-weight: 700;
-    color: white;
+    color: rgb(132,199,172);
     padding: 0px 0px 3px 0px;
 }
